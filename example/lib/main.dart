@@ -329,7 +329,7 @@ Widget proxyDecorator(Widget child, int index, Animation<double> animation) {
       return Material(
         elevation: elevation,
         color: const Color(0x00000000),
-        shadowColor: primaryColor.withValues(alpha: 0.9),
+        shadowColor: primaryColor.withOpacity(0.9),
         child: child,
       );
     },

@@ -24,7 +24,7 @@ class ItemTile extends StatelessWidget {
           color: isLocked
               ? containerLowColor
               : Colors.primaries[id % Colors.primaries.length]
-                  .withValues(alpha: dragEnabled ? 1 : 0.3)),
+                  .withOpacity(dragEnabled ? 1 : 0.3)),
       child: Center(
         child: !isLocked
             ? Text(

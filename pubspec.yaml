@@ -4,8 +4,8 @@ version: 1.2.0
 repository: https://github.com/canopas/animated_reorderable_list
 
 environment:
-  sdk: '>=3.0.6 <4.0.0'
-  flutter: ">=1.17.0"
+  sdk: '>=2.19.6 <3.0.0'
+  # flutter: ">=1.17.0"
 
 dependencies:
   flutter:

@@ -607,7 +607,7 @@ class ReorderableAnimatedBuilderState extends State<ReorderableAnimatedBuilder>
       final AnimationController controller = incomingItem?.controller ??
           AnimationController(
               duration: removeItemDuration, value: 1.0, vsync: this)
-        ..addStatusListener((status) => ());
+        ..addStatusListener((status) => (){});
       final _ActiveItem outgoingItem =
           _ActiveItem.animation(controller, itemIndex, sizeController);
 
